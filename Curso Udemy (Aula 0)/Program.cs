@@ -14,8 +14,8 @@ internal class Program
     Console.ReadKey();
     */
 
-    // Aula 10. (Tabuada)
-    /*
+    // Aula 10 e 16. (Tabuada) (FOR)
+    /* AULA 10 ->
     string enter = "";
     int n = 0;
 
@@ -26,6 +26,20 @@ internal class Program
 
     Console.WriteLine("Tabuada do " + n);
     Console.WriteLine(n + " x 1 = " + (n * 1));
+    */
+
+    //AULA 20
+    /*
+    int n = 0;
+    Console.WriteLine("Tabuada de um numero");
+    Console.Write("Informe um Número: ");
+    n = Convert.ToInt32(Console.ReadLine());
+    int i = 0;
+    for(i = 1; i <= 10; i++)
+    {
+      Console.WriteLine("{0} x {1} = {2}", n, i, (n * i));
+    }
+    Console.ReadKey();
     */
 
     //Aula 11. (Área do triangulo)
@@ -152,7 +166,59 @@ internal class Program
     */
 
     //Aula 19. (Condicionais - Final)
+    /*
+    string name = "";
+    int age = 0;
+
+    Console.WriteLine("Clase do Eleitor");
+    Console.Write("Informe seu nome: ");
+    name = Console.ReadLine();
+    Console.Write("Informe a sua idade: ");
+    age = Convert.ToInt32(Console.ReadLine());
 
 
+    if(age < 16)
+    {
+      Console.WriteLine("{0} Você não possui idade para votar", name);
+    }
+    else
+    {
+      if((age > 15 && age < 18) || age > 65)
+      {
+        Console.WriteLine("{0} Você e um eleitor facultativo", name);
+      }
+      else
+      {
+        Console.WriteLine("{0}, seu voto e obrigatorio", name);
+      }
+    }
+
+    Console.ReadKey();
+    */
+
+    //Aula 21. (For calculador de média)
+    /*
+    double num = 0;
+    double average = 0;
+    double total = 0;
+    float tl = 0;
+
+    Console.WriteLine("Programa que calcula a média dos números informados");
+    Console.Write("Quantos números deseja informar: ");
+    tl = Convert.ToInt32(Console.ReadLine());
+
+    for (int i = 1; i <= tl; i++)
+    {
+      Console.Write("informe um numero: ");
+      num = Convert.ToDouble(Console.ReadLine());
+      total =+ num;
+    }
+
+    average = total / tl;
+    Console.WriteLine("Total: " + total);
+    Console.WriteLine("Media: {0}:", average);
+
+    Console.ReadKey();
+    */
   }
 }
