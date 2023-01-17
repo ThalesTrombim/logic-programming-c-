@@ -220,5 +220,77 @@ internal class Program
 
     Console.ReadKey();
     */
+
+    //Aula 22. (While Tabuada)
+    /*
+    int i = 0;
+    int n = 0;
+    Console.WriteLine("Tabuada de um número");
+    Console.Write("Informe um Número: ");
+    n = Convert.ToInt32(Console.ReadLine());
+
+    while (i <= 10)
+    {
+      Console.WriteLine("{0} x {1} = {2}", n, i, (n * i));
+      i++;
+    }
+
+    Console.ReadKey();
+    */
+
+    //Aula 22. (While Tabuada)
+    /*
+    int num = 0;
+    int count = 0;
+    int i = 0;
+    int exit = 0;
+
+    Console.WriteLine("Número Primo");
+    Console.Write("Informe um numero: ");
+    num = Convert.ToInt32(Console.ReadLine());
+
+    count = 0;
+    i = 1;
+    while(i <= num)
+    {
+      if (num % i == 0)
+      {
+        count++;
+      }
+      i++;
+    }
+    if(count == 2)
+    {
+      Console.WriteLine("O valor informado e um numero primo!");
+    }
+    else
+    {
+      Console.WriteLine("O valor informado nao e um numero primo!");
+    }
+
+    Console.ReadKey();
+    */
+
+    //Aula 22. (Array)
+    /*
+    string[] list = new string[5];
+
+    Console.WriteLine("Lista de 5 nomes");
+    for(int i = 0; i < 5; i++)
+    {
+      Console.Write("Informe um nome: ");
+      list[i] = Console.ReadLine();
+    }
+    Console.Clear();
+    Console.Write("Nomes: ");
+    for (int i = 0; i < list.Length; i++)
+    {
+      Console.Write(list[i] + ", ");
+    }
+
+    Console.ReadKey();
+    */
+
+
   }
 }
