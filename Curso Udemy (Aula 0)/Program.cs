@@ -291,6 +291,51 @@ internal class Program
     Console.ReadKey();
     */
 
+    //Aula 25. (Array Jogo da adivinhação).
+    /*
+    string[] questions =
+    {
+      "O que tem capa mas não voa",
+      "Sem sair do seu cantinho, é capaz de viajar ao redor do mundo.",
+      "É alta quando jovem e baixinha quando fica velha. Além disso, é rápida quando é magra e lenta quando é gorda.",
+    };
+
+    string[] answers =
+    {
+      "livro",
+      "selo",
+      "vela"
+    };
+
+    string play = "s";
+    string res = "";
+    int i = 0;
+
+    while(play == "s")
+    {
+      Random rand = new Random();
+      i = rand.Next(0, answers.Length);
+      Console.WriteLine("Pergunta: {0}", questions[i]);
+      Console.Write("Resposta: ");
+      res = Console.ReadLine();
+
+      if(res != answers[i])
+      {
+        Console.WriteLine("Que pena, voce errou!");
+      }
+      else
+      {
+        Console.WriteLine("Parabens!!!! Você acertou.");
+      }
+
+      Console.Write("Deseja jogar novamente s/n: ");
+      play = Console.ReadLine();
+    }
+    */
+
+    //Aula 27. (Funções).
+
+
 
   }
 }
