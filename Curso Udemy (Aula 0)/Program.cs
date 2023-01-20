@@ -2,7 +2,7 @@
 
 internal class Program
 {
-  private static void Main(string[] args)
+  private static void Main1(string[] args)
   {
     // Até a Aula 09. (Strings em geral)
     /*
@@ -332,10 +332,21 @@ internal class Program
       play = Console.ReadLine();
     }
     */
+    /*
+    Console.WriteLine("Aprendendo a trabalhar com Funções");
+    ShowDate();
 
-    //Aula 27. (Funções).
-
-
-
+    Console.ReadKey();
+    */
   }
+  //Aula 27. (Funções).
+  /*
+  public static void ShowDate()
+  {
+    string date = DateTime.Now.Date.ToString();
+    Console.WriteLine(date);
+  }
+  */
+
+
 }

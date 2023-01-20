@@ -1,13 +1,14 @@
 ﻿<Properties StartupConfiguration="{A10A56E2-D151-4C3A-8E77-4CC6551EE7FF}|Default" GitUserInfo="UsingMD">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Curso_220Udemy_220_228Aula_2200_229 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Curso Udemy (Aula 0)/Program.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Curso Udemy (Aula 0)/funcoes.cs">
     <Files>
-      <File FileName="Curso Udemy (Aula 0)/Program.cs" Line="294" Column="1" />
+      <File FileName="Curso Udemy (Aula 0)/Program.cs" Line="5" Column="28" />
+      <File FileName="Curso Udemy (Aula 0)/funcoes.cs" Line="14" Column="4" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
